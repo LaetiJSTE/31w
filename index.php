@@ -1,6 +1,6 @@
 
 <?php get_header(); ?> 
-<h1>Mon premier modèle Wordpress</h1>
+<h1>index.php Mon premier modèle Wordpress</h1>
 <?php
 if (have_posts()):
     while(have_posts()) : the_post(); ?>
@@ -9,11 +9,11 @@ if (have_posts()):
 <?php 
    /*  $contenu = get_the_content();
     echo wp_trim_words($contenu, 20, " ... "); */
-    $lien ="<a href='" . get_permalink() . "'>". get_the_title() ."</a>";
+    $lien =" ... <a class='bouton' href='" . get_permalink() . "'>". substr(get_the_title(),0,8)  ."</a>";
     echo $lien;
 ?>
 
-<p><?= wp_trim_words(get_the_content(),20, substr($lien,0,8)); ?></p>
+<p><?= wp_trim_words(get_the_content(),20, $lien); ?></p>
 
 
         
