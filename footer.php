@@ -1,3 +1,4 @@
+
 <footer class="site__footer">
 Le pied de page
 </footer>
