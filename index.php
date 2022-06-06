@@ -9,11 +9,11 @@ if (have_posts()):
 <?php 
    /*  $contenu = get_the_content();
     echo wp_trim_words($contenu, 20, " ... "); */
-    $lien ="<a href='" . get_permalink() . "'>lien</a>";
+    $lien ="<a href='" . get_permalink() . "'>". get_the_title() ."</a>";
     echo $lien;
 ?>
 
-<p><?= wp_trim_words(get_the_content(),20, ''); ?></p>
+<p><?= wp_trim_words(get_the_content(),20, substr($lien,0,8)); ?></p>
 
 
         
