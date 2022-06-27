@@ -1,0 +1,5 @@
+(function(){
+    document.addEventListener('mousedown',function(){
+        console.log('mon bouton ok') 
+    })
+})()
