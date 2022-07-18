@@ -1,0 +1,27 @@
+.menu__sidebar
+{
+    //background-color: beige;
+}
+.menu__sidebar__ul
+{
+    //background-color: rgb(34, 194, 64);
+    list-style-type: none;
+    margin: 0;
+    padding: .4rem 0;
+
+}
+
+.menu__sidebar__ul .menu-item //represent le li 
+{
+    margin: .5rem 0;
+}
+
+.menu__sidebar__ul .menu-item a //represent le a
+{
+    padding: .5rem;
+
+}
+.menu__sidebar__ul .menu-item a :hover
+{
+    background-color: lighten($color__background-zonegrid, 30%);
+}

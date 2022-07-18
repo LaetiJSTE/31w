@@ -1,6 +1,7 @@
 @charset "UTF-8";
+
 /*! 
-Theme Name: 31W-cours 
+Theme Name: 31W-exer3
 Author: Laetitia Juste
 Author URI: https://github.com/LaetiJSTE
 Description: Thème de base pour le cours de 31W
@@ -383,42 +384,22 @@ body {
 /**
 *  styles pour h1,h2,h3,h4,h5mh6 et p
 */
-h1, h2 {
+h1,
+h2 {
   color: #666666;
-  font-family: "Montserrat", sans-serif;
 }
 
-h3, h4, h5, h6, p {
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   color: #1a1a1a;
-  font-family: "Roboto", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 h1 {
-  font-size: clamp(2rem, 5vw, 5rem);
-}
-
-h2 {
-  font-size: clamp(1.5rem, 3vw, 3rem);
-}
-
-h3 {
-  font-size: clamp(1.3rem, 2.5vw, 2rem);
-}
-
-h4 {
-  font-size: clamp(1.2rem, 2vw, 2rem);
-}
-
-h5 {
-  font-size: clamp(1rem, 1.5vw, 1.5rem);
-}
-
-h6 {
-  font-size: clamp(1rem, 1.5vw, 1.5rem);
-}
-
-p {
-  font-size: clamp(0.8rem, 1.5vw, 1rem);
+  font-size: clamp(1.5rem, 5vw, 5rem);
 }
 
 hr {
@@ -441,8 +422,8 @@ ol {
   list-style: decimal;
 }
 
-li > ul,
-li > ol {
+li>ul,
+li>ol {
   margin-bottom: 0;
   margin-left: 1.5em;
 }
@@ -486,7 +467,9 @@ a:visited {
   color: #800080;
 }
 
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
   color: #191970;
 }
 
@@ -494,7 +477,8 @@ a:focus {
   outline: thin dotted;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   outline: 0;
 }
 
@@ -523,7 +507,8 @@ input[type="submit"]:hover {
   border-color: #ccc #bbb #aaa;
 }
 
-.bouton:active, .bouton:focus,
+.bouton:active,
+.bouton:focus,
 button:active,
 button:focus,
 input[type="button"]:active,
@@ -587,41 +572,71 @@ textarea {
 /*--------------------------------------------------------------
 # Layout
 --------------------------------------------------------------*/
-/*
-Guide efficace sur l'utilisation de grid
-https://css-tricks.com/snippets/css/complete-guide-grid/
-*/
 .site {
   display: grid;
-  grid-template-columns: 20vw auto;
-  grid-template-areas: "header header" "sidebar main" "footer footer";
+  grid-template-columns: auto;
+  grid-template-areas: "header header""sidebar sidebar""main main""footer footer";
 }
 
-.site__header, .site__sidebar, .site__main, .site__footer {
+.site__header,
+.site__sidebar,
+.site__main,
+.site__footer {
   padding: 1vh 3vw;
 }
 
 .site__header {
   grid-area: header;
-  background-color: #7bcbdf;
+  border: #191970 1px solid;
+  text-align: center;
 }
 
 .site__main {
   grid-area: main;
   overflow: hidden;
   /* Resolves issue with <pre> elements forcing full width. */
-  background-color: #a4dbe9;
+  background-color: whitesmoke;
 }
-
+.main{
+  border: rgb(10, 2, 98) 1px solid;
+  margin-bottom: 20px;
+  padding: 10px;
+  min-width: 100%;
+  min-height: 200px;
+  gap: 15px;
+  display: inline-block;
+  background-color: white;
+  
+}
 .site__sidebar {
   grid-area: sidebar;
-  background-color: #cdebf3;
+  border: #191970 1px solid;
 }
 
 .site__footer {
   grid-area: footer;
-  background-color: #7bcbdf;
+  padding: 20px;
+  border: #191970 1px solid;
 }
 
-/* @import "no-sidebar"; */
+@media screen and (min-width: 700px) {
+  .site {
+    grid-template-columns: 20vw auto;
+    grid-template-areas: "header header""sidebar main""footer footer";
+  }
+}
+
+/*@import "no-sidebar";*/
 /*# sourceMappingURL=style.css.map */
+.single {
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.single h2 {
+  text-align: center;
+}
+
+section{
+  margin: 20px;
+}

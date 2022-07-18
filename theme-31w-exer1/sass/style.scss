@@ -1,5 +1,5 @@
 /*! 
-Theme Name: 31W-cours 
+Theme Name: 31W-exer3
 Author: Laetitia Juste
 Author URI: https://github.com/LaetiJSTE
 Description: Thème de base pour le cours de 31W
@@ -66,8 +66,13 @@ Text Domain: 31-w
 --------------------------------------------------------------*/
 @import "base/base";
 
+
+/*--------------------------------------------------------------
+# Composante
+--------------------------------------------------------------*/
+@import "composante/nav_sidebar";
+
 /*--------------------------------------------------------------
 # Layout
 --------------------------------------------------------------*/
 @import "layout/sidebar-content";
-
