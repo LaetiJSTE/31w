@@ -613,7 +613,7 @@ textarea {
 
 .main:hover{
   box-shadow: rgb(0, 0, 0) 0px 5px 15px;
-  transform: scale(1.05)
+  transform: scale(1.04)
 }
 .site__sidebar {
   grid-area: sidebar;
