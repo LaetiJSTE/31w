@@ -659,7 +659,12 @@ section{
 }
 
 .site{
- 
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("./Copy-of-WordPress_FI-2.png") no-repeat right center;
+  background-size: cover;
+ border-radius: 5px;
+
+
+
 }
 
 .bouton {
