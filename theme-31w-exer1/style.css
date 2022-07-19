@@ -662,3 +662,15 @@ section{
 .site{
   border: red 1px solid;
 }
+
+.bouton {
+  border-radius: 5px;
+  max-width: 100px;
+  text-decoration: none;
+  background-color: white;
+  border: black 2px solid;
+  display: flex;
+  margin: 20px;
+  flex-wrap: wrap;
+  font-weight:bolder ;
+}
