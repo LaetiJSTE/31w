@@ -621,7 +621,13 @@ textarea {
 
 .site__footer {
   grid-area: footer;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("./footer.png") no-repeat right center;
+  background-size: cover;
+  min-height: 300px;
   padding: 40px;
+  width: 100%;
+  margin: none;
+  
  /*  background-color: rgb(245, 245, 245); */
 }
 
@@ -655,7 +661,7 @@ section{
 
 .site__header{
   border-radius: 4px;
-
+  
 }
 
 .site{
@@ -663,24 +669,25 @@ section{
   background-size: cover;
  border-radius: 5px;
 
-
-
 }
 
 .bouton {
   border-radius: 5px;
   max-width: 100px;
   text-decoration: none;
-  background-color: white;
-  border: black 2px solid;
+  background-color:white;
+  border: black 1px solid;
+ 
   display: flex;
   margin: 20px;
   flex-wrap: wrap;
   font-weight:bolder ;
+  text-decoration: none;
 }
 
 .bouton:hover{
   box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+
 }
 
 .header__test{
