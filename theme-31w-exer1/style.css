@@ -587,7 +587,6 @@ textarea {
 
 .site__header {
   grid-area: header;
-  border: #191970 1px solid;
   text-align: center;
 }
 
@@ -598,7 +597,7 @@ textarea {
   background-color: whitesmoke;
 }
 .main{
-  border: rgb(10, 2, 98) 2px solid;
+ 
   margin-bottom: 20px;
   padding: 10px;
   min-width: 100%;
@@ -617,13 +616,13 @@ textarea {
 }
 .site__sidebar {
   grid-area: sidebar;
-  border: #191970 1px solid;
+ background-color: rgb(245, 245, 245);
 }
 
 .site__footer {
   grid-area: footer;
-  padding: 20px;
-  border: #191970 1px solid;
+  padding: 40px;
+  background-color: rgb(245, 245, 245);
 }
 
 @media screen and (min-width: 700px) {
@@ -660,7 +659,7 @@ section{
 }
 
 .site{
-  border: red 1px solid;
+ 
 }
 
 .bouton {
@@ -677,5 +676,4 @@ section{
 
 .bouton:hover{
   box-shadow: rgb(0, 0, 0) 0px 5px 15px;
- 
 }
