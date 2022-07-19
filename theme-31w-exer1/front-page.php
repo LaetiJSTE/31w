@@ -1,4 +1,5 @@
-<?php get_header(); ?>
+<section class="header__test">
+<?php get_header(); ?></section>
 <section class='site__main '>
     <!--<h1>Mon premier modèle Wordpress</h1> page d'accueil-->
     <?php
