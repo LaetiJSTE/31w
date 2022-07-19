@@ -598,7 +598,7 @@ textarea {
   background-color: whitesmoke;
 }
 .main{
-  border: rgb(10, 2, 98) 1px solid;
+  border: rgb(10, 2, 98) 2px solid;
   margin-bottom: 20px;
   padding: 10px;
   min-width: 100%;
@@ -606,6 +606,9 @@ textarea {
   gap: 15px;
   display: inline-block;
   background-color: white;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
   
 }
 .site__sidebar {
@@ -639,4 +642,19 @@ textarea {
 
 section{
   margin: 20px;
+}
+
+.site__branding{
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.site__header{
+  border-radius: 4px;
+
+}
+
+.site{
+  border: red 1px solid;
 }
