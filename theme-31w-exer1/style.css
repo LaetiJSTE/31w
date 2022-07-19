@@ -594,7 +594,7 @@ textarea {
   grid-area: main;
   overflow: hidden;
   /* Resolves issue with <pre> elements forcing full width. */
-  background-color: whitesmoke;
+/*   background-color: whitesmoke; */
 }
 .main{
  
@@ -616,13 +616,13 @@ textarea {
 }
 .site__sidebar {
   grid-area: sidebar;
- background-color: rgb(245, 245, 245);
+/*  background-color: rgb(245, 245, 245); */
 }
 
 .site__footer {
   grid-area: footer;
   padding: 40px;
-  background-color: rgb(245, 245, 245);
+ /*  background-color: rgb(245, 245, 245); */
 }
 
 @media screen and (min-width: 700px) {
@@ -676,4 +676,8 @@ section{
 
 .bouton:hover{
   box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+}
+
+.header__test{
+ margin: none;
 }
