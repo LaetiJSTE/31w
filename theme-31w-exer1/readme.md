@@ -1,6 +1,6 @@
 # TP1 
 ## Premier thème et plugin  Wordpress
-### Contient 14 commits
+### Contient 23 commits
 
 [github-page](https://laetiJSTE.github.io/theme-31w)
 > Le thème conient 5 fichiers:
