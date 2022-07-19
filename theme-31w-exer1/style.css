@@ -621,14 +621,9 @@ textarea {
 
 .site__footer {
   grid-area: footer;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("./footer.png") no-repeat right center;
-  background-size: cover;
-  min-height: 300px;
-  padding: 40px;
-  width: 100%;
-  margin: none;
+  border-top: #4169e1 2px solid;
   
- /*  background-color: rgb(245, 245, 245); */
+
 }
 
 @media screen and (min-width: 700px) {
