@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 /*! 
-Theme Name: 31W-exer3
+Theme Name: 31W-TP1
 Author: Laetitia Juste
-Author URI: https://github.com/LaetiJSTE
+Author URI: https://github.com/LaetiJSTE/31w/tree/tp1/theme-31w-exer1
 Description: Thème de base pour le cours de 31W
 Version: 1.0.0
 Tested up to: 5.4
@@ -378,7 +378,7 @@ html {
 /* Elements
 --------------------------------------------- */
 body {
-  background: #fff;
+  background: rgb(255, 255, 255);
 }
 
 /**
@@ -655,13 +655,15 @@ section{
 }
 
 .site__header{
-  border-radius: 4px;
+  border-radius: 4px; 
+   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("./footer.png") no-repeat right center;
+  background-size: cover;
+  color: white;
   
 }
 
 .site{
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("./Copy-of-WordPress_FI-2.png") no-repeat right center;
-  background-size: cover;
+
  border-radius: 5px;
 
 }

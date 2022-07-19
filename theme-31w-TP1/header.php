@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Template Header
  * se template est intégré dans tous les modèles de thème
